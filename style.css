@@ -1,0 +1,41 @@
+h1{
+    padding-left: 50px;
+    color:#ff0000   
+}
+.header{
+    border:solid;
+    background-color: rgb(5, 29, 253);
+    display: flex;
+    justify-content: space-between;
+}
+.Grid{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30;
+}
+body{
+    background-color: #ffffff
+}
+.item{
+   position: relative; 
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%,-50%);
+    border: solid;
+    background-color: silver;
+}
+.item:hover p{
+    opacity: 30;
+}
+.item:hover img{
+    opacity: 0.33;
+}
